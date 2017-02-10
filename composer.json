@@ -18,10 +18,7 @@
       "dist": {
         "config": {
           "ishMinimum": "320"
-        },
-        "sourceDir": [
-          { "*": "*" }
-        ]
+        }
       }
     }
   }
