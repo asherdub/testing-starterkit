@@ -1,0 +1,15 @@
+{% extends 'base.twig' %}
+{% block main %}
+  {% include 'molecules-post-card-featured' %}
+  <div class="card-columns mt-2">
+    {% for post in posts %}
+        {% include 'molecules-post-card' %}
+    {% endfor %}
+  </div>
+  {% include 'molecules-pager' %}
+{% endblock %}
+{% if patternlab == true %}
+  {% block sidebar %}
+    {% include 'organisms-sidebar-primary' %}
+  {% endblock %}
+{% endif %}

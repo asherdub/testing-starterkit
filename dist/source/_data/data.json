@@ -1,0 +1,327 @@
+{
+  "patternlab": true,
+  "body_class": "body",
+  "sidebar_class": "sidebar",
+  "site": {
+    "name": "PatternLab",
+    "description": "An atomic design system for user-interfaces",
+    "link": "#",
+    "charset": "UTF-8"
+  },
+  "options": {
+    "latest_posts_title": "Latest From Our Blog",
+    "footer_message": "This is an aside message for the footer.",
+    "copyright_message": "&copy; 2017 Losource Ltd. All rights reserved.",
+    "read_link_label": "Read more...",
+    "byline": "by ",
+    "publine": "on ",
+    "logo": {
+      "src": "../../dist/images/logo.png",
+      "alt": "Logo",
+      "sr_text": "Go to homepage"
+    }
+  },
+  "post": {
+    "id": "123",
+    "class": "post hentry",
+    "author": {
+      "name": "Jon Walters",
+      "link": "#"
+    },
+    "terms": [
+      {
+        "title": "Category1",
+        "link": "#"
+      },
+      {
+        "title": "Category2",
+        "link": "#"
+      },
+      {
+        "title": "Category3",
+        "link": "#"
+      }
+    ],
+    "date": "02 Febuary, 2017",
+    "link": "#",
+    "title": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shift volutpizzle",
+    "excerpt": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+    "content": "<p>Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni</p><blockquote>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</blockquote><p>Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.</p>",
+    "thumbnail": {
+      "thumbnail": {
+        "src": "http://placeimg.com/160/160/nature",
+        "alt": "Post featured image thumbnail size",
+        "width": "160",
+        "height": "160"
+      },
+      "medium": {
+        "src": "http://placeimg.com/300/200/nature",
+        "alt": "Post featured image medium size",
+        "width": "300",
+        "height": "200"
+      },
+      "medium_large": {
+        "src": "http://placeimg.com/768/432/nature",
+        "alt": "Post featured image medium_large size",
+        "width": "768",
+        "height": "432"
+      },
+      "medium_large_square": {
+        "src": "http://placeimg.com/768/768/tech",
+        "alt": "Post featured image medium_large_square size",
+        "width": "768",
+        "height": "768"
+      },
+      "large": {
+        "src": "http://placeimg.com/1024/576/nature",
+        "alt": "Post featured image large size",
+        "width": "1024",
+        "height": "576"
+      },
+      "full": {
+        "src": "http://placeimg.com/1280/720/nature",
+        "alt": "Post featured image full size",
+        "width": "1280",
+        "height": "720"
+      }
+    },
+    "get_field": {
+      "jumbotron": {
+        "title": "Fluid jumbotron",
+        "message": "This is a modified jumbotron that occupies the entire horizontal space of it's parent.",
+        "link_label": "Do Something",
+        "link": "#",
+        "image": {
+          "src": "http://placeimg.com/1280/720/nature",
+          "alt": "Jumbotron image"
+        }
+      },
+      "home_content_block": {
+        "title": "Title For This Content Block",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": {
+          "src": "http://placeimg.com/768/600/tech",
+          "alt": "Content block image",
+          "width": "768",
+          "height": "600"
+        }
+      }
+    }
+  },
+  "posts": {
+    "pagination": {
+      "prev": {
+        "link": "#"
+      },
+      "next": {
+        "link": "#"
+      }
+    }
+  },
+  "posts": [
+    {
+      "id": "123",
+      "class": "post hentry",
+      "author": {
+        "name": "Jon Walters",
+        "link": "#"
+      },
+      "terms": [
+        {
+          "title": "Category1",
+          "link": "#"
+        },
+        {
+          "title": "Category2",
+          "link": "#"
+        },
+        {
+          "title": "Category3",
+          "link": "#"
+        }
+      ],
+      "date": "02 Febuary, 2017",
+      "link": "#",
+      "title": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shift volutpizzle",
+      "excerpt": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+      "content": "<p>Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni</p><blockquote>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</blockquote><p>Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.</p>",
+      "thumbnail": {
+        "thumbnail": {
+          "src": "http://placeimg.com/160/160/nature",
+          "alt": "Post featured image thumbnail size",
+          "width": "160",
+          "height": "160"
+        },
+        "medium": {
+          "src": "http://placeimg.com/300/200/nature",
+          "alt": "Post featured image medium size",
+          "width": "300",
+          "height": "200"
+        },
+        "medium_large": {
+          "src": "http://placeimg.com/768/432/nature",
+          "alt": "Post featured image medium_large size",
+          "width": "768",
+          "height": "432"
+        },
+        "large": {
+          "src": "http://placeimg.com/1024/576/nature",
+          "alt": "Post featured image large size",
+          "width": "1024",
+          "height": "576"
+        },
+        "full": {
+          "src": "http://placeimg.com/1280/720/nature",
+          "alt": "Post featured image full size",
+          "width": "1280",
+          "height": "720"
+        }
+      }
+    },
+    {
+      "id": "123",
+      "class": "post hentry",
+      "author": {
+        "name": "Jon Walters",
+        "link": "#"
+      },
+      "terms": [
+        {
+          "title": "Category1",
+          "link": "#"
+        },
+        {
+          "title": "Category2",
+          "link": "#"
+        },
+        {
+          "title": "Category3",
+          "link": "#"
+        }
+      ],
+      "date": "02 Febuary, 2017",
+      "link": "#",
+      "title": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shift volutpizzle",
+      "excerpt": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+      "content": "<p>Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni</p><blockquote>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</blockquote><p>Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.</p>",
+      "thumbnail": {
+        "thumbnail": {
+          "src": "http://placeimg.com/160/160/nature",
+          "alt": "Post featured image thumbnail size",
+          "width": "160",
+          "height": "160"
+        },
+        "medium": {
+          "src": "http://placeimg.com/300/200/nature",
+          "alt": "Post featured image medium size",
+          "width": "300",
+          "height": "200"
+        },
+        "medium_large": {
+          "src": "http://placeimg.com/768/432/nature",
+          "alt": "Post featured image medium_large size",
+          "width": "768",
+          "height": "432"
+        },
+        "large": {
+          "src": "http://placeimg.com/1024/576/nature",
+          "alt": "Post featured image large size",
+          "width": "1024",
+          "height": "576"
+        },
+        "full": {
+          "src": "http://placeimg.com/1280/720/nature",
+          "alt": "Post featured image full size",
+          "width": "1280",
+          "height": "720"
+        }
+      }
+    },
+    {
+      "id": "123",
+      "class": "post hentry",
+      "author": {
+        "name": "Jon Walters",
+        "link": "#"
+      },
+      "terms": [
+        {
+          "title": "Category1",
+          "link": "#"
+        },
+        {
+          "title": "Category2",
+          "link": "#"
+        },
+        {
+          "title": "Category3",
+          "link": "#"
+        }
+      ],
+      "date": "02 Febuary, 2017",
+      "link": "#",
+      "title": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shift volutpizzle",
+      "excerpt": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+      "content": "<p>Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni</p><blockquote>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</blockquote><p>Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.</p>",
+      "thumbnail": {
+        "thumbnail": {
+          "src": "http://placeimg.com/160/160/nature",
+          "alt": "Post featured image thumbnail size",
+          "width": "160",
+          "height": "160"
+        },
+        "medium": {
+          "src": "http://placeimg.com/300/200/nature",
+          "alt": "Post featured image medium size",
+          "width": "300",
+          "height": "200"
+        },
+        "medium_large": {
+          "src": "http://placeimg.com/768/432/nature",
+          "alt": "Post featured image medium_large size",
+          "width": "768",
+          "height": "432"
+        },
+        "large": {
+          "src": "http://placeimg.com/1024/576/nature",
+          "alt": "Post featured image large size",
+          "width": "1024",
+          "height": "576"
+        },
+        "full": {
+          "src": "http://placeimg.com/1280/720/nature",
+          "alt": "Post featured image full size",
+          "width": "1280",
+          "height": "720"
+        }
+      }
+    }
+  ],
+  "menu": [
+    {
+      "title": "Home",
+      "link": "#",
+      "classes": "nav-link"
+    },
+    {
+      "title": "About",
+      "link": "#",
+      "classes": "nav-link"
+    },
+    {
+      "title": "Blog",
+      "link": "#",
+      "classes": "nav-link"
+    }
+  ],
+  "get_widgets": {
+    "posts_widget": {
+      "widget_class": "widget_posts",
+      "widget_title": "Recent stories"
+    },
+    "text_widget": {
+      "widget_class": "widget_text",
+      "widget_content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem</p>"
+    }
+  }
+}

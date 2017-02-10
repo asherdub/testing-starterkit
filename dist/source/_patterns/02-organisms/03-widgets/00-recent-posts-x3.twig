@@ -1,0 +1,10 @@
+<!--START widget-->
+<div class="widget get_widgets.posts_widget.widget_class">
+	<h4 class="widgettitle">{{get_widgets.posts_widget.widget_title}}</h4>
+	<div class="widgetinner">
+		{% for post in posts %}
+			{% include 'molecules-post-card-outline' %}
+		{% endfor %}
+	</div>
+</div> <!--widget-->
+<!--END widget-->

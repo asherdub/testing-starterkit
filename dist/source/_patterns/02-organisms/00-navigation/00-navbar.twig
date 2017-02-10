@@ -1,0 +1,15 @@
+<nav class="navbar navbar-fixed-top navbar-toggleable-sm navbar-inverse bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#primary-navbar" aria-controls="primary-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    {% include "atoms-logo" %}
+    <div class="collapse navbar-collapse" id="primary-navbar">
+      <ul class="navbar-nav ml-auto">
+        {% for item in menu %}
+        <li class="nav-item">
+          <a class="{{item.classes}}" href="{{item.link}}">{{item.title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+</nav>

@@ -1,0 +1,25 @@
+// Grid system
+.main {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col($main-lg-columns);
+    .sidebar-primary & {
+      @include make-col($main-lg-columns - $sidebar-lg-columns);
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    @include make-col($main-lg-columns);
+    .sidebar-primary & {
+      @include make-col($main-lg-columns - $sidebar-xl-columns);
+    }
+  }
+}
+.sidebar {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col($sidebar-lg-columns);
+  }
+  @include media-breakpoint-up(xl) {
+    @include make-col($sidebar-xl-columns);
+  }
+}

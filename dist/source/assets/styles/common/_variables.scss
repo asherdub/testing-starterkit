@@ -1,0 +1,23 @@
+// Grid settings
+$enable-flex:           true;
+$main-lg-columns:       12;
+$sidebar-lg-columns:    4;
+$sidebar-xl-columns:    3;
+
+// Colors
+
+$white:  #fff !default;
+$black:  #000 !default;
+$red:    #d9534f !default;
+$orange: #f0ad4e !default;
+$yellow: #ffd500 !default;
+$green:  #5cb85c !default;
+$blue:   #0275d8 !default;
+$teal:   #5bc0de !default;
+$pink:   #ff5b77 !default;
+$purple: #613d7c !default;
+
+
+$brand-primary:         $teal;
+
+$enable-rounded: false;

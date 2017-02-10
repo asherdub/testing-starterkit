@@ -1,0 +1,15 @@
+<footer class="py-3 bg-inverse text-white text-center content-info" role="contentinfo">
+  <div class="container">
+    {% include 'atoms-logo' %}
+    <ul class="list-inline footer-nav">
+      {% for item in menu %}
+      <li class="list-inline-item">
+        <a href="{{item.link}}">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <p class="lead">{{ options.footer_message }}</p>
+    <small>{{ options.copyright_message|raw }}</small>
+  </div>
+</footer>

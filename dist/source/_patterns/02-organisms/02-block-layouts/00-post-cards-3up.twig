@@ -1,0 +1,14 @@
+<section class="content-block content-block-blog py-3 bg-primary">
+  <div class="container-fluid">
+    <header class="text-center text-white">
+      <h2>{{options.latest_posts_title}}</h2>
+    </header>
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+        {% for post in posts %}
+        {% include 'molecules-post-card' %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

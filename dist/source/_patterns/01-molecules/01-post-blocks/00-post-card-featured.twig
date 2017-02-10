@@ -1,0 +1,11 @@
+<article id="{{post.id}}" class="{{post.class}} card card-featured card-inverse bg-inverse">
+  <img class="entry-image hidden-xs-down" src="{{post.thumbnail.medium_large.src}}" alt="{{post.thumbnail.medium_large.alt}}" width="{{post.thumbnail.medium_large.width}}" height="{{post.thumbnail.medium_large.height}}">
+  <img class="entry-image hidden-sm-up" src="{{post.thumbnail.medium_large_square.src}}" alt="{{post.thumbnail.medium_large_square.alt}}" width="{{post.thumbnail.medium_large_square.width}}" height="{{post.thumbnail.medium_large_square.height}}">
+  <div class="card-img-overlay">
+    <h4 class="card-header">Featured</h4>
+    <header>
+      {% include 'atoms-entry-title-link' %}
+    </header>
+    {% include 'atoms-entry-summary' %}
+  </div>
+</article>

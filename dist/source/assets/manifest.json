@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "tether.js": {
+      "bower": ["tether"]
+    }
+  },
+  "paths": {
+    "source": "source/assets/",
+    "dist": "public/dist/"
+  },
+  "config": {
+    "devUrl": "http://pl.dev"
+  }
+}

@@ -1,0 +1,18 @@
+.widget {
+  @extend .card;
+  @extend .mb-3;
+}
+.widgettitle {
+  @extend .card-header;
+}
+.widgetinner {
+  @extend .card-block;
+}
+
+.widget_text {
+  @extend .card-inverse;
+  @extend .bg-inverse;
+}
+.textwidget {
+  @extend .card-block;
+}

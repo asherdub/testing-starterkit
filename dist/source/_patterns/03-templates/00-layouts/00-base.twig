@@ -1,0 +1,10 @@
+{% include 'organisms-navbar' %}
+<div class="wrap container-fluid" role="document">
+    <div class="content row">
+        <main class="main">
+          {% block main %}{% endblock %}
+        </main>
+        {% block sidebar %}{% endblock %}
+    </div>
+</div>
+{% include 'organisms-footer' %}

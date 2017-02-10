@@ -1,0 +1,8 @@
+<small class="termsline">
+  {{options.termsline}}
+  <ul class="list-inline">
+    {% for term in post.terms %}
+      <li class="list-inline-item"><a href="{{term.link}}">{{term.title}}</a></li>
+    {% endfor %}
+  </ul>
+</small>

@@ -1,0 +1,14 @@
+<article id="{{post.id}}" class="{{post.class}} card">
+  {% include 'atoms-image-medium_large' %}
+  <div class="card-block">
+    <header>
+      {% include 'atoms-entry-title-link' %}
+    </header>
+    {% include 'atoms-entry-summary' %}
+    <a href="{{post.link}}">{{options.read_link_label}}</a>
+  </div>
+  <aside class="card-footer entry-meta text-muted">
+    {% include 'atoms-post-date' %}
+    {% include 'atoms-post-author' %}
+  </aside>
+</article>

@@ -1,0 +1,9 @@
+{% extends 'base.twig' %}
+{% block main %}
+  {% include 'organisms-content-single' %}
+{% endblock %}
+{% if patternlab == true %}
+  {% block sidebar %}
+    {% include 'organisms-sidebar-primary' %}
+  {% endblock %}
+{% endif %}

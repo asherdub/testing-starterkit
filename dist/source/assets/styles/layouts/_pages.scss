@@ -1,0 +1,12 @@
+.home {
+  .wrap, .main {padding: 0;}
+  .content {margin: 0;}
+}
+
+.blog {
+  .main {padding: 0;}
+}
+
+article.page .entry-image, .body.single .entry-image {
+  @extend .img-fluid;
+}

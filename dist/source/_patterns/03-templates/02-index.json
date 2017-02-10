@@ -1,0 +1,6 @@
+{
+  "body_class": "body blog sidebar-primary",
+  "post": {
+    "class": "post hentry"
+  }
+}
