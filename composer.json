@@ -1,12 +1,12 @@
 {
-  "name":             "asherdub/testing-starterkit",
-  "description":      "An experimental StarterKit for the PatternLab Twig Edition",
-  "type":             "patternlab-starterkit",
-  "license":          "MIT",
+  "name": "asherdub/testing-starterkit",
+  "description": "An experimental StarterKit for the PatternLab Twig Edition",
+  "type": "patternlab-starterkit",
+  "license": "MIT",
   "authors": [
     {
-      "name":         "Jon Walters",
-      "email":        "jon@jacreation.co.uk"
+      "name": "Jon Walters",
+      "email": "jon@jacreation.co.uk"
     }
   ],
   "require": {
@@ -17,8 +17,14 @@
     "patternlab": {
       "dist": {
         "config": {
-          "ishMinimum": "320"
-        }
+          "ishMinimum": "320",
+          "defaultShowPatternInfo": "true"
+        },
+        "sourceDir": [
+          {
+            "*": "*"
+          }
+        ]
       }
     }
   }
