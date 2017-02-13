@@ -10,7 +10,7 @@ This StarterKit can be installed using the following command:
 
     php core/console --starterkit --install asherdub/testing-starterkit
 
-Use "r" when prompted to replace the entire source folder if you have already installed a kit in your PatternLab project.
+Use "r" if prompted to replace the entire source folder if you have already installed a kit in your PatternLab project.
 
 ## Edit Files
 

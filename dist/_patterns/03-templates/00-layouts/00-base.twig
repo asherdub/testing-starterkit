@@ -2,7 +2,9 @@
 <div class="wrap container-fluid" role="document">
     <div class="content row">
         <main class="main">
-          {% block main %}{% endblock %}
+          {% block main %}
+            <p class="lead">Page content goes here</p>
+          {% endblock %}
         </main>
         {% block sidebar %}{% endblock %}
     </div>
